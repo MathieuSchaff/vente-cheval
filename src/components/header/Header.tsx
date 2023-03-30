@@ -5,7 +5,7 @@ function Header() {
     <header className="bg-gray-900 text-white">
       <div className="container mx-auto flex justify-between items-center py-4">
         <Link href="/" className="text-2xl font-bold">
-          Mon Site de Vente de Chevaux
+          Equita vente
         </Link>
         <NavBar />
       </div>
