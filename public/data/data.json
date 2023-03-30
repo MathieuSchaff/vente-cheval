@@ -1,0 +1,146 @@
+[
+  {
+    "nom": "Grisou",
+    "race": "Selle Français",
+    "sexe": "Hongre",
+    "couleur": "Gris",
+    "taille": "1m70",
+    "âge": "7 ans",
+    "description": "Grisou est un cheval doux et affectueux. Il est facile à monter et a un très bon saut."
+  },
+  {
+    "nom": "Éclair",
+    "race": "Pur-sang",
+    "sexe": "Mâle",
+    "couleur": "Bai",
+    "taille": "1m65",
+    "âge": "5 ans",
+    "description": "Éclair est un cheval rapide et énergique. Il est idéal pour les courses et les compétitions de saut d'obstacles."
+  },
+  {
+    "nom": "Luna",
+    "race": "Fjord",
+    "sexe": "Femelle",
+    "couleur": "Isabelle",
+    "taille": "1m50",
+    "âge": "9 ans",
+    "description": "Luna est un cheval très affectueux et facile à monter. Elle est idéale pour les balades en forêt."
+  },
+  {
+    "nom": "Tornade",
+    "race": "Appaloosa",
+    "sexe": "Hongre",
+    "couleur": "Pie",
+    "taille": "1m60",
+    "âge": "8 ans",
+    "description": "Tornade est un cheval très joueur et curieux. Il est facile à monter et peut être utilisé pour les compétitions de saut d'obstacles."
+  },
+  {
+    "nom": "Caramel",
+    "race": "Haflinger",
+    "sexe": "Femelle",
+    "couleur": "Palomino",
+    "taille": "1m45",
+    "âge": "6 ans",
+    "description": "Caramel est un cheval très docile et facile à monter. Elle est idéale pour les enfants et les débutants."
+  },
+  {
+    "nom": "Orion",
+    "race": "Irish Cob",
+    "sexe": "Mâle",
+    "couleur": "Pie",
+    "taille": "1m65",
+    "âge": "10 ans",
+    "description": "Orion est un cheval très calme et posé. Il est idéal pour les balades en forêt et peut être utilisé pour les compétitions de dressage."
+  },
+  {
+    "nom": "Calypso",
+    "race": "Lusitanien",
+    "sexe": "Femelle",
+    "couleur": "Noir",
+    "taille": "1m60",
+    "âge": "7 ans",
+    "description": "Calypso est un cheval très élégant et gracieux. Elle est idéale pour les compétitions de dressage."
+  },
+  {
+    "nom": "Champagne",
+    "race": "Quarter Horse",
+    "sexe": "Hongre",
+    "couleur": "Isabelle",
+    "taille": "1m55",
+    "âge": "9 ans",
+    "description": "Champagne est un cheval très polyvalent. Il peut être utilisé pour tout !"
+  },
+  {
+    "nom": "Cannelle",
+    "race": "Cheval de trait",
+    "sexe": "Femelle",
+    "couleur": "Alezan crins lavés",
+    "taille": "1m70",
+    "âge": "8 ans",
+    "description": "Cannelle est un cheval de trait puissant et très doux. Elle est idéale pour les travaux agricoles et les balades en calèche."
+  },
+  {
+    "nom": "Diamant",
+    "race": "Frison",
+    "sexe": "Mâle",
+    "couleur": "Noir",
+    "taille": "1m60",
+    "âge": "6 ans",
+    "description": "Diamant est un cheval très élégant et gracieux. Il est idéal pour les compétitions de dressage."
+  },
+  {
+    "nom": "Eclipse",
+    "race": "Shetland",
+    "sexe": "Femelle",
+    "couleur": "Noir",
+    "taille": "1m20",
+    "âge": "5 ans",
+    "description": "Eclipse est un petit poney très joueur et affectueux. Elle est idéale pour les enfants et les débutants."
+  },
+  {
+    "nom": "Fuego",
+    "race": "Andalou",
+    "sexe": "Hongre",
+    "couleur": "Alezan",
+    "taille": "1m55",
+    "âge": "7 ans",
+    "description": "Fuego est un cheval très énergique et joueur. Il est idéal pour les compétitions de saut d'obstacles."
+  },
+  {
+    "nom": "Galopin",
+    "race": "Welsh",
+    "sexe": "Mâle",
+    "couleur": "Pie",
+    "taille": "1m30",
+    "âge": "6 ans",
+    "description": "Galopin est un petit poney très joueur et dynamique. Il est idéal pour les enfants et les débutants."
+  },
+  {
+    "nom": "Hélios",
+    "race": "Anglo-arabe",
+    "sexe": "Mâle",
+    "couleur": "Bai",
+    "taille": "1m65",
+    "âge": "8 ans",
+    "description": "Hélios est un cheval rapide et énergique. Il est idéal pour les courses et les compétitions de saut d'obstacles."
+  },
+  {
+    "nom": "Indigo",
+    "race": "Lipizzan",
+    "sexe": "Hongre",
+    "couleur": "Gris",
+    "taille": "1m60",
+    "âge": "7 ans",
+    "description": "Indigo est un cheval très élégant et gracieux. Il est idéal pour les compétitions de dressage."
+  },
+  {
+    "nom": "Jazz",
+    "race": "Hanovrien",
+    "sexe": "Femelle",
+    "couleur": "Bai",
+    "taille": "1m70",
+    "âge": "9 ans",
+    "description": "Jazz est un cheval très polyvalent. Elle peut être utilisée pour les compétitions de saut d'obstacles et les balades en forêt."
+  }
+]
