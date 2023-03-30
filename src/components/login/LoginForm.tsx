@@ -6,6 +6,7 @@ import useUser from "../../../hooks/useUser";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
+import { useTranslation } from "next-i18next";
 const schema = z.object({
   email: z
     .string()
@@ -31,8 +32,8 @@ export default function LoginForm() {
   } = useForm<FormValues>({
     resolver: zodResolver(schema),
   });
+  const { t } = useTranslation("common");
   const { mutate } = useUser();
-
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     console.log("data", data);
     const result = await loginUser(data.email, data.password);
@@ -45,24 +46,49 @@ export default function LoginForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
       <div>
-        <label>Email</label>
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium text-gray-700"
+        >
+          Email
+        </label>
         <input
+          id="email"
           type="email"
-          {...register("email", { required: true, maxLength: 35 })}
+          {...register("email")}
+          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
         />
-        {errors.email && <span>{errors.email.message}</span>}
+        {errors.email && (
+          <span className="text-sm text-red-600">{errors.email.message}</span>
+        )}
       </div>
       <div>
-        <label>Password</label>
+        <label
+          htmlFor="password"
+          className="block text-sm font-medium text-gray-700"
+        >
+          Password
+        </label>
         <input
+          id="password"
           type="password"
-          {...register("password", { required: true, maxLength: 20 })}
+          {...register("password")}
+          className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
         />
-        {errors.password && <span>{errors.password.message}</span>}
+        {errors.password && (
+          <span className="text-sm text-red-600">
+            {errors.password.message}
+          </span>
+        )}
       </div>
-      <button type="submit">Login</button>
+      <button
+        type="submit"
+        className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      >
+        {t("login")}
+      </button>
     </form>
   );
 }
