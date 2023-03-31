@@ -33,6 +33,7 @@ export default function LoginForm() {
     resolver: zodResolver(schema),
   });
   const { t } = useTranslation("common");
+  console.log("t", t);
   const { mutate } = useUser();
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     console.log("data", data);
